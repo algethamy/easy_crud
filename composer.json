@@ -1,0 +1,10 @@
+{
+  "name": "efrontsa/easy_crud",
+  "description": "Allow you to create a simple CRUD controller",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "EFrontSA\\EasyCRUD\\": "src/"
+    }
+  }
+}
