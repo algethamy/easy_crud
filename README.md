@@ -8,6 +8,18 @@ Allow you to create a simple CRUD controller
 composer require efront/ease_curd
 ````
 
+After install this package you have to set the service provider on your config/app.php file
+
+````
+EFrontSA\EasyCRUD\ServiceProvider::class,
+````
+
+Then you just need to publish files ! Copy and paste it
+
+````
+php artisan vendor:publish --provider="EFrontSA\EasyCRUD\ServiceProvider"
+````
+
 That's it!
 
 
