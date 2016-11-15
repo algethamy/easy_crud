@@ -19,8 +19,8 @@ class ServiceProvider extends BaseServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../resource/lang/ar/easy_curd.php',
-            __DIR__ . '/../resource/lang/en/easy_curd.php',
+            __DIR__ . '/../resource/lang/ar/easy_curd.php' => base_path('resource/lang/ar/easy_curd.php'),
+            __DIR__ . '/../resource/lang/en/easy_curd.php' => base_path('resource/lang/en/easy_curd.php'),
         ], 'resource');
     }
 }
