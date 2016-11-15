@@ -7,16 +7,6 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 class ServiceProvider extends BaseServiceProvider
 {
     /**
-     * Register the service provider.
-     */
-    public function register()
-    {
-        $this->registerRepositories();
-
-        $this->registerServices();
-    }
-
-    /**
      * Boot the service provider.
      */
     public function boot()
