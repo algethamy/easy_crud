@@ -57,3 +57,10 @@ class CityRequest extends Request implements CRUDRequest{
 
 }
 ````
+
+#Create Views
+
+create your views (index, create, edit).
+
+* `edit` view will receive `$object` variable as the result of model query.
+* `index` view will receive `$objects` variable as the result of model query.
