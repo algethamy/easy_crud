@@ -1,4 +1,4 @@
-## Easy CRUD
+# Easy CRUD
 
 Allow you to create a simple CRUD controller
 
@@ -23,9 +23,9 @@ php artisan vendor:publish --provider="EFrontSA\EasyCRUD\ServiceProvider"
 That's it!
 
 
-##How to use
+#How to use
 
-#Create Controller
+##Create Controller
 
 * you have to use BasicCRUDTrait trait in your controller and define some variables in your constructor
 * Inject you model into your constructor like `City`
@@ -48,7 +48,7 @@ class CityController extends Controller
 ````
 
 
-#Create Form Request
+##Create Form Request
 
 Your form request should implement this interface `\EFrontSA\EasyCRUD\Requests\CRUDRequest`
 
@@ -58,7 +58,7 @@ class CityRequest extends Request implements CRUDRequest{
 }
 ````
 
-#Create Views
+##Create Views
 
 create your views (index, create, edit).
 
