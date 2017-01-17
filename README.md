@@ -5,7 +5,7 @@ Allow you to create a simple CRUD controller
 ##Installation
 
 ````
-composer require efrontsa/ease_curd
+composer require efrontsa/easy_crud
 ````
 
 After install this package you have to set the service provider on your config/app.php file
